@@ -21,21 +21,21 @@ class Cart
      *
      * @var \Illuminate\Session\SessionManager
      */
-    private $session;
+    protected $session;
 
     /**
      * Instance of the event dispatcher.
      * 
      * @var \Illuminate\Contracts\Events\Dispatcher
      */
-    private $events;
+    protected $events;
 
     /**
      * Holds the current cart instance.
      *
      * @var string
      */
-    private $instance;
+    protected $instance;
 
     /**
      * Cart constructor.
